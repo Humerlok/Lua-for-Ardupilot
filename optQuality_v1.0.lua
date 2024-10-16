@@ -30,7 +30,7 @@ gcs:send_text(6, "optQuality.lua rolando") --Envia um texto para a estação de 
 
 function update()
     optQuality()
-    return update, 1000 -- Executa a cada 1 segundo
+    return update, 3000 -- Executa a cada 3 segundos
 end
 
 return update()
